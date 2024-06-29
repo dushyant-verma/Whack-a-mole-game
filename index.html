@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css">
+    <title>Whack a mole game</title>
+  </head>
+  <body>
+    <section class="container">
+        <header class="header">
+          <h1 class="title">Whack-a-mole!</h1>
+          <span class="hits">0</span>
+        </header>
+        <main class="game-board">
+          <div class="mole-box">
+            <span class="icon mole"></span>
+            <span class="icon hole"></span>
+          </div>
+          <div class="mole-box">
+            <span class="icon mole"></span>
+            <span class="icon hole"></span>
+          </div>
+          <div class="mole-box">
+            <span class="icon mole"></span>
+            <span class="icon hole"></span>
+          </div>
+          <div class="mole-box">
+            <span class="icon mole"></span>
+            <span class="icon hole"></span>
+          </div>
+          <div class="mole-box">
+            <span class="icon mole"></span>
+            <span class="icon hole"></span>
+          </div>
+          <div class="mole-box">
+            <span class="icon mole"></span>
+            <span class="icon hole"></span>
+          </div>
+        </main>
+        <div class="controls">
+          <div class="difficulty">
+            <button class="btn btn-difficulty">easy</button>
+            <button class="btn btn-difficulty">normal</button>
+            <button class="btn btn-difficulty">hard</button>
+          </div>
+          <button class="btn btn-play">Play</button>
+        </div>
+        <audio src="https://raw.githubusercontent.com/jonathan-eduardo/JavaScript30/main/challenges/30%20-%20Whack%20A%20Mole/sounds/hit-effect.mp3" name="hit-audio" class="hit-audio"></audio>
+      </section>
+    <script src="index.js"></script>
+  </body>
+</html>
